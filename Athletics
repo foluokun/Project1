@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Custom-->
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- <script src="js/bootstrap.min.js" type="text/javascript"></script> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+
+<div class="container" style="padding-top: 120px">
+<div class="row">
+  <div class="col-sm-8">
+    <h1>Washington University Athletics</h1>
+    <img class="img-reponsive" src="http://placehold.it/350x350">
+
+    <div role="tabpanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#bio" aria-controls="bio" role="tab" data-toggle="tab">Bio</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Player Profile</a></li>
+    <li role="presentation"><a href="#log" aria-controls="log" role="tab" data-toggle="tab">Game Log</a></li>
+    <li role="presentation"><a href="#stats" aria-controls="stats" role="tab" data-toggle="tab">Career Stats</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="bio">Some stuff about my career</div>
+    <div role="tabpanel" class="tab-pane" id="profile">Profile Content</div>
+    <div role="tabpanel" class="tab-pane" id="log">Game Log</div>
+    <div role="tabpanel" class="tab-pane" id="stats">Cool Statistics</div>
+  </div>
+
+</div>
+   
+  </div>
+</div>
+</div>
+    
+
+
+<!-- Included from bootstrap example -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
