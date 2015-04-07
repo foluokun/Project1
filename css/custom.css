@@ -16,6 +16,11 @@ div.mainpart {
 div.column-sm-8mainpart{
 	width:100%;
 }
+.responsive-image {
+        width: 720px;
+        max-width: 100%;
+        height: auto;
+}
 div.thumbnails{
 	padding-left: 50px;
 	padding-right: 50px;
